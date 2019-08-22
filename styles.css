@@ -1,0 +1,93 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(http://media.gettyimages.com/videos/loop-neuron-medical-animation-video-id507753723?s=640x640);
+  background-size: center right no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  font-family: Times;
+  font-size: 20px;
+  line-height: 1.3125;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+      src=".image.jpg",
+      sizingMethod="scale"
+    );
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+}
+
+.box {
+  text-align: center;
+
+  margin: 0 auto;
+}
+
+.blue-box {
+  margin: 50px;
+  background-color: #000019;
+  padding: 50px;
+  box-shadow: 0 0 20px #111;
+}
+
+.white-box {
+  border: 5px solid white;
+  background-color: none;
+  box-sizing: border-box;
+  width: 80%;
+  padding-right: 10px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+  text-align: left;
+  padding-left: 20%;
+  
+}
+  
+   
+h2 {
+  font-size: 30px;
+  padding: 0px;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  color: yellow;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+p {
+  color: white;
+  text-align: left;
+}
+
+span {
+  color: yellow;
+}
+
+cite {
+  font-size: 20px;
+}
+
+img {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+ .logo {
+      padding-left: 50px;
