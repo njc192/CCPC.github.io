@@ -1,3 +1,6 @@
+@ charset "UTF-8";
+
+
 body {
   height: 100%;
   width: 100%;
@@ -7,6 +10,7 @@ body {
   background-attachment: fixed;
   color: #ffffff;
   font-family: Times;
+  text-align: center;
   font-size: 20px;
   line-height: 1.3125;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
@@ -21,9 +25,13 @@ body {
 
   margin: 0 auto;
 }
-
+.contactinfo
+{
+	text-align: center;
+}
 .blue-box {
   margin: 50px;
+  text-align: center;
   background-color: #000019;
   padding: 50px;
   box-shadow: 0 0 20px #111;
@@ -63,7 +71,7 @@ h4 {
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 20px; /*was 20px*/
 }
 
 h6 {
